@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+}
+
+.youtube {
+    margin-bottom: 50px;
+}
+
+
+.subscribeButton {
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.is-subscribed {
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+.cost {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.calcBtn {
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 12px 15px;
+    font-size: 15px;
+}

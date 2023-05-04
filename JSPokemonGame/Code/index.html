@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+
+    <title>Grass Town</title>
+
+    <style>
+        * {
+            font-family: 'Press Start 2P', cursive;
+        }
+        body {
+            background-color: black;
+        }
+        h1 {
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+        h2 {
+            font-size: 16px;
+            margin: 0;
+        }
+        button {
+            border: 0;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #ddd;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Grass Town</h1>
+        </div>
+    </header>
+        
+    <main>
+        <div id="gameArea" style="display: flex; justify-content: center;">
+            
+            <div style="display: inline-block; position: relative;">
+                <div id="overlappingDiv" style="background-color: black; position: absolute; top: 0; right: 0; left: 0; bottom: 0; opacity: 0; pointer-events: none; z-index: 10;"></div>
+
+                <canvas></canvas>
+
+                <div id="userInterface" style="display: none;">
+                    <!-- Health Bars -->
+                    <div style="background-color: white; position: absolute; width: 250px; top: 50px; left: 50px; border: 4px black solid; padding: 12px;">
+                        <h2>Draggle</h2>
+                        <div style="position: relative;">
+                            <div style="height: 5px; background-color: #ccc; margin-top: 10px;"></div>
+                            <div id="enemyHealthBar" style="height: 5px; background-color: green; position: absolute; top: 0; left: 0; right: 0;"></div>
+                        </div>
+                    </div>
+                    <div style="background-color: white; position: absolute; width: 250px; top: 330px; right: 50px; border: 4px black solid; padding: 12px;">
+                        <h2>Emby</h2>
+                        <div style="position: relative;">
+                            <div style="height: 5px; background-color: #ccc; margin-top: 10px;"></div>
+                            <div id="playerHealthBar" style="height: 5px; background-color: green; position: absolute; top: 0; left: 0; right: 0;"></div>
+                        </div>
+                    </div>
+                
+
+                    <div style="background-color: white; position: absolute; bottom: 0; left: 0; right: 0; height: 140px; border-top: 4px black solid; display: flex;">
+                        <div id="dialogueBox" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-color: white; padding: 12px; display: none; cursor: pointer;"></div>
+                        <div id="attacksBox" style="width: 66.667%; display: grid; grid-template-columns: repeat(2, 1fr);">
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: center; width: 33.33%; border-left: 4px black solid;">
+                            <h2 id="attackType">Attack Type</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- this may move the pokemon creatures -->
+                <div>
+                    <p style="color: white; width: 512px; padding-left: 256px; line-height: 25px; text-align: center;">Defeat 5 Draggles with your Emby in the dark patches of grass to save Grass Town!</p> 
+                    <p id="dragglesDefeated" style="text-align: center; color: red;">0/5</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="data/audio.js"></script>
+        <script src="data/collisions.js"></script>
+        <script src="data/battleZonesData.js"></script>
+        <script src="data/attacks.js"></script>
+        <script src="data/monsters.js"></script>
+        <script src="classes.js"></script>
+        <script src="index.js"></script>      
+        <script src="battleScene.js"></script>       
+    </main>
+    
+</body>
+</html>
