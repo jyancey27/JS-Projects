@@ -25,7 +25,7 @@ namespace readwriteapp
                 }
                 //close the file
                 sr.Close();
-                Console.ReadLine();
+                Console.WriteLine("done.");
             }
             catch(Exception e)
             {
