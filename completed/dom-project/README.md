@@ -1,4 +1,4 @@
-# Todo Project
+# DOM Project
 
 This simple project taught me more about how the DOM works.  
 
