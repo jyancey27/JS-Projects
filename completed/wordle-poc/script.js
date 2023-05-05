@@ -1,4 +1,4 @@
-import { WORDS } from './words/words.js';
+import { WORDLEWORDS } from './words/wordleWords.js';
 
 // load the score from local storage, or set default values
 let score = JSON.parse(localStorage.getItem('score')) || {
@@ -14,7 +14,7 @@ let currentGuess = [];
 let nextLetter = 0;
 
 // for getting random correct guess
-let correctGuessString = WORDS[Math.floor(Math.random() * WORDS.length)];
+let correctGuessString = WORDLEWORDS[Math.floor(Math.random() * WORDLEWORDS.length)];
 console.log(correctGuessString);
 
 // listen for keyboard events

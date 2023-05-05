@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\working-on\\wordle-poc\\words\\app\\app.csproj": {}
+    "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\completed\\wordle-poc\\words\\app\\app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\working-on\\wordle-poc\\words\\app\\app.csproj": {
+    "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\completed\\wordle-poc\\words\\app\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\working-on\\wordle-poc\\words\\app\\app.csproj",
+        "projectUniqueName": "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\completed\\wordle-poc\\words\\app\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\working-on\\wordle-poc\\words\\app\\app.csproj",
+        "projectPath": "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\completed\\wordle-poc\\words\\app\\app.csproj",
         "packagesPath": "C:\\Users\\Jaydon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\working-on\\wordle-poc\\words\\app\\obj\\",
+        "outputPath": "C:\\Users\\Jaydon\\Documents\\Coding\\JavaScript\\JS-Projects\\completed\\wordle-poc\\words\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jaydon\\AppData\\Roaming\\NuGet\\NuGet.Config",
