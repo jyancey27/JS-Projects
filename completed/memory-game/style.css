@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.25);
+    z-index: 9999;
+  }
+
+#grid {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    cursor: pointer;
+}
+
+#winner {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 400px 304px;
+    grid-template-rows: auto;
+    gap: 20px;
+    height: 10vh;
+}
+
+.score-board {
+    text-align: left;
+    border: 2px white solid;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.score-board-title {
+    text-align: center;
+    border-bottom: 2px white solid;
+    padding-bottom: 5px;
+}
+
+.advanced-stats-title {
+    text-align: center;
+    border-bottom: 2px white solid;
+    border-top: 2px white solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.score-board-basic,
+.score-board-advanced,
+.score-board-worst-game,
+.score-board-best-game,
+.score-board-perfect-games {
+    padding-left: 8px;
+}
+
+.score-board-worst-game {
+    color: red;
+}
+
+.score-board-best-game {
+    color: green;
+}
+
+.score-board-perfect-games {
+    color: gold;
+}
+
+.container2 {
+    margin-top: 450px;
+}
+
+.reset-btn {
+    cursor: pointer;
+    padding: 15px;
+    background-color: red;
+    border: 2px black solid;
+    font-weight: bolder;
+    font-size: 16px;
+}
+

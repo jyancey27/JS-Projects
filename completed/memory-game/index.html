@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memory Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div>
+            <h1>Memory Game</h1>
+            <div class="container">
+                <div class="game-board" id="grid"></div>
+                <div class="score-board">
+                    <h2 class="score-board-title">Score Board</h2>
+                    <h3 class="score-board-basic">Matches: <span id="matches">0</span></h3>
+                    <h3 class="score-board-basic">Tries: <span id="tries">0</span></h3>
+                    <h2 class="advanced-stats-title">Advanced Stats</h2>
+                    <h3 class="score-board-advanced" id="average-tries-text">Average Tries: <span id="average-tries"></span></h3>
+                    <h3 class="score-board-worst-game">Worst Game: <span id="worst-game"></span></h3>
+                    <h3 class="score-board-best-game">Best Game: <span id="best-game"></span></h3>
+                    <h3 class="score-board-perfect-games">Perfect Games: <span id="perfect-games"></span></h3>
+                </div>
+            </div>
+            <div class="container2">
+                <div id="winner"></div>
+                <button class="reset-btn" id="reset">RESET ALL ADVANCED STATS</button>
+            </div>
+        </div>
+        <script src="script.js" type="module"></script>
+    </body>
+</html>
