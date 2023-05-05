@@ -6,3 +6,7 @@ Some are through tutorial videos, tutorial websites, and on my own.
 ## Use
 
 Each can be ran by using a server, I use live server on VSCode.  
+
+## TODO
+
+Add env file for path and hide some things with .git  
