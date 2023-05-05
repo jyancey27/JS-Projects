@@ -9,4 +9,4 @@ I also added my own code to it as well.
 
 ## TODO
 
-add complete words list with c++ program  
+add complete words list with c# program to convert to   
