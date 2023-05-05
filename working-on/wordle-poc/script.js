@@ -1,4 +1,4 @@
-import { WORDS } from './words.js';
+import { WORDS } from './words/words.js';
 
 // load the score from local storage, or set default values
 let score = JSON.parse(localStorage.getItem('score')) || {
