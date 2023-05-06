@@ -76,7 +76,7 @@ function checkGuess() {
         alert('word not long enough');
         return;
     }
-    if (!WORDS.includes(guess)) {
+    if (!WORDLEWORDS.includes(guess)) {
         alert('word not in list');
         return;
     }
